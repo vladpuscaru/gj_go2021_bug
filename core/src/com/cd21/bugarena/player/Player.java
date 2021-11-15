@@ -51,8 +51,6 @@ public class Player extends Sprite {
             state = PlayerState.IDLE;
         }
 
-        Gdx.app.log("Player", "Is Dashing: " + isDashing);
-
         animator.update(deltaTime);
 
         // Set drawable

@@ -9,8 +9,8 @@ public class GameInfo {
     public static final float VIEWPORT_WIDTH = 800;
     public static final float VIEWPORT_HEIGHT = 600;
 
-    public static final int WORLD_WIDTH = 8192;
-    public static final int WORLD_HEIGHT = 8192;
+    public static final int WORLD_WIDTH = 2048;
+    public static final int WORLD_HEIGHT = 2048;
 
     public static final float PLAYER_MAX_HEALTH = 500.0f;
     public static final float PLAYER_ATTACK = 5.0f;

@@ -99,6 +99,11 @@ public class GameScreen implements Screen {
             newX = worldLeft + (camera.viewportWidth / 2f) * GameInfo.PPM;
         }
 
+        if (Gdx.input.isKeyPressed(Input.Keys.T)) {
+            Gdx.app.log("Camera", String.format("T:%2.0f | R: %2.0f | D: %2.0f | L: %2.0f", cameraTop, cameraRight, cameraDown, cameraLeft));
+            Gdx.app.log("World ", String.format("T:%2.0f | R: %2.0f | D: %2.0f | L: %2.0f\n\n", worldTop, worldRight, worldDown, worldLeft));
+        }
+
         camera.position.set(newX / GameInfo.PPM, newY / GameInfo.PPM, 0);
         camera.update();
     }
